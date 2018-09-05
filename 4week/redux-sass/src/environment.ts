@@ -3,7 +3,7 @@ const dev = {
 }
 
 const prod = {
-  context: 'http://ec2-35-164-166-180.us-west-2.compute.amazonaws.com:3000/'
+  context: 'http://ec2-52-11-143-84.us-west-2.compute.amazonaws.com:3000/'
 }
 
 export const environment = process.env.NODE_ENV === 'production'
